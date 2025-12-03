@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { BackgroundElements } from './components/BackgroundElements';
 import { Services } from './components/Services';
 import { AboutSection } from './components/AboutSection';
+import { CareerSection } from './components/CareerSection';
 import { Footer } from './components/Footer';
 import { ChatBot } from './components/ChatBot';
 
@@ -30,6 +31,11 @@ const App: React.FC = () => {
         <div className="h-px w-full bg-gradient-to-r from-transparent via-emerald-500/20 to-transparent"></div>
         
         <AboutSection />
+
+        {/* Divider Effect */}
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-indigo-500/20 to-transparent"></div>
+
+        <CareerSection />
       </main>
 
       {/* Contact & Footer */}
